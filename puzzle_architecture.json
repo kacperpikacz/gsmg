@@ -1,0 +1,85 @@
+{
+  "name": "GSMG Puzzle",
+  "primary_path": {
+    "root": "primary-path",
+    "description": "Main puzzle route from the initial image through Phase 3.",
+    "steps": [
+      {
+        "id": "phase0",
+        "title": "Phase 0",
+        "kind": "image",
+        "path": "primary-path/phase0/puzzle.png",
+        "api": "primary-path/phase0/phase.py",
+        "readme": "primary-path/phase0/README.md",
+        "hint": "follow the white rabbit",
+        "decoded_url": "https://gsmg.io/theseedisplanted"
+      },
+      {
+        "id": "phase1",
+        "title": "Phase 1",
+        "kind": "html",
+        "path": "primary-path/phase1/phase.html",
+        "api": "primary-path/phase1/phase.py",
+        "readme": "primary-path/phase1/README.md",
+        "original_url": "https://gsmg.io/theseedisplanted",
+        "password": "theflowerblossomsthroughwhatseemstobeaconcretesurface",
+        "next_url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+      },
+      {
+        "id": "phase2",
+        "title": "Phase 2",
+        "kind": "html",
+        "path": "primary-path/phase2/phase.html",
+        "api": "primary-path/phase2/phase.py",
+        "readme": "primary-path/phase2/README.md",
+        "original_url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+        "blob_index": 0,
+        "password": "causality",
+        "password_sha256": "eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf"
+      },
+      {
+        "id": "phase3",
+        "title": "Phase 3",
+        "kind": "derived",
+        "api": "primary-path/phase3/phase.py",
+        "readme": "primary-path/phase3/README.md",
+        "source": {
+          "phase": "phase2",
+          "blob_index": 1
+        },
+        "password": "causalitySafenetLunaHSM111100x736B6E616220726F662074756F6C69616220646E6F63657320666F206B6E697262206E6F20726F6C6C65636E61684320393030322F6E614A2F33302073656D695420656854B5KR/1r5B/2R5/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1",
+        "password_sha256": "1a57c572caf3cf722e41f5f9cf99ffacff06728a43032dd44c481c77d2ec30d5",
+        "phase32": {
+          "source": "embedded_blob",
+          "password": "jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple",
+          "password_sha256": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c",
+          "architect_word_message": "primary-path/phase3/assets/architect_word_message.txt"
+        }
+      }
+    ]
+  },
+  "secondary_path": {
+    "root": "secondary-path",
+    "description": "Alternate route unlocked from the Decentraland audio hint.",
+    "steps": [
+      {
+        "id": "secondary",
+        "title": "SalPhaseIon / Cosmic Duality",
+        "kind": "html",
+        "path": "secondary-path/phase.html",
+        "api": "secondary-path/phase.py",
+        "readme": "secondary-path/README.md",
+        "original_url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+        "decentraland": {
+          "coords": [
+            -41,
+            -17
+          ],
+          "content_id": "QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK",
+          "audio_url": "https://peer.decentraland.org/content/contents/QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK"
+        },
+        "hash_input": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+      }
+    ]
+  }
+}

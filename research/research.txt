@@ -1,0 +1,46 @@
+#twentythreeciphers
+life
+puzzle
+wise
+burden
+measure
+you
+away
+key
+help
+build
+worth
+tell
+say
+become
+source
+carry
+select
+six
+private
+note
+power
+live
+good
+
+#sevenpasswords
+causality
+Safenet
+Luna
+HSM
+11110
+0x736B6E616220726F662074756F6C69616220646E6F63657320666F206B6E697262206E6F20726F6C6C65636E61684320393030322F6E614A2F33302073656D695420656854
+B5KR/1r5B/2R5/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1
+
+#sevenpasswordsvariation2
+486604799
+1231469665000L
+1
+2573394689L
+0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
+0x0e3e2357e806b6cdb1f70b54c3a3a17b6714ee1f0e68bebb44a74b1efd512098
+true
+
+
+Final AES: U2FsdGVkX1+0Wl49gnWTyiimluu7V3+vl7st0gUt9sWDzNLxDmlPMsDSiuW2a46zgKlIi8aaqY5gpJPPEzW1n9n3/26qs4zstWtPKF8Zs/BTNN4IiEh4qu18mdC0NAv4
+Its encrypted using aes-256-cbc -> base64
